@@ -1,0 +1,344 @@
+/*#for id . for classes */
+
+/* MAIN INDE PAGE */
+nav{
+    margin: 0;
+    padding: 5px 10%;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 15px solid white;
+    /* margin-top: auto; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+ }
+ .logo{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 2px;
+ }
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-link li a{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: black
+
+}
+/*changes the color when you hover over the links*/
+.nav-link li a:hover{
+    color:  rgb(132, 16, 16);
+}
+/*header banner*/
+.header-img{
+   width: 100%;
+   height: 550px;
+   object-fit: cover;
+   display: block;
+   margin-top: 0px;
+}
+.title1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -35px;
+    
+}
+.IntroPara{
+    font-size: 20px;
+}
+.StartButton:hover{
+    background-color: #8B0000;
+    color: white;
+    cursor: pointer;
+}
+.StartButton{
+    border-radius: 20px;
+    width: 50px;
+    background-color: rgb(255, 246, 246);
+    border-color: black;
+    color: #8B0000;
+    font-size: 12px;
+}
+/*women writteb in red*/
+.WordColor{
+    color: rgb(132, 16, 16);
+}
+.container{
+    display: inline-block;
+}
+/*the text radical taught*/
+.text{
+    font-size: 30px;
+    border-right: 2px solid black;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: steps 10s steps(69) infinite,
+    cursor 0.7s step-end infinite alternate;
+
+}
+/*cursor blinking effect*/
+@keyframes cursor{
+    0%, 100%{border-color: transparent}
+    50%{border-color: black;}
+}
+/*typing effect*/
+@keyframes steps{
+    from {width: 0ch;}
+}
+.header {
+  width: 100%;
+  position: relative;
+}
+.intro{
+    font-size: 30px;
+}
+/*color sections*/
+.ColorSection1{
+  background-color: rgb(241, 229, 218);
+  color: #111;
+  padding: 80px 10%;
+}
+.ColorSection2{
+  height: 75vh;
+  background-color: #8B0000;
+  color: #f9f4ef;
+  padding: 80px 10%;
+} 
+.ColorSection3{
+  height: 75vh; 
+  /* background-color:  #f4ede4; */
+  color: #000000;
+  padding: 80px 10%;
+  /* background-color: #4b0000; */
+   /* background-color: #f4ede4; */
+   background-color: #1c1c1c;
+}
+.stat-box{
+    font-size: 20px;
+}
+/*fixing tiles*/
+.tiles-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.tile {
+    width: 250px;
+    background: rgb(241, 229, 218);
+    padding: 10px;
+    border-radius: 8px;
+}
+.tile img {
+    width: 55%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/*footer right n left*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+/* PAGE WOMENSVOICES */
+/* world map */
+
+svg{
+    width: 100vh;
+    height: 100vh;
+} 
+path:hover{
+    fill: #8B0000;
+}
+
+ .Container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 100px /* pushes the bloock away from the nav bar */
+  
+}
+
+.WorldMap svg {
+  width: 150vh;
+  height: 90vh;
+  transform: scale(1.1); /*zoom svg map */
+  margin-right: -350px;
+
+}
+
+/*block on the right */
+.block {
+  background-color: rgb(34, 170, 34);
+  color: black;
+  height: 50vh;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+/* Q&A PAGE */
+body{
+    padding-top: 250px;
+
+}
+.ContainerQA{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.MessageWall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+}
+/* .CustomFilebtn{
+  padding: 4px 20px;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+} */
+
+/* WAVES OF FEMMINISM PAGE */
+
+.slide{
+    width: 100vh;
+    height: 100vh;
+}
+
+.Wrapper{
+    display: flex;
+    width: 400vw;
+    flex-direction: row ;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+.FirstWave{
+    background-color: red;
+}
+.SecondWave{
+    background-color: rgb(38, 31, 99);
+}
+
+.ThirdWave{
+    background-color: rgba(15, 99, 21, 0.456);
+}
+
+.FourthWave{
+    background-color: rgb(106, 68, 68);
+}
+.OuterWrapper{
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+
+}
+
+
+/* WALL PAGE */
+
+.HideAudio{
+  position: absolute;
+  left: -9999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Page target voices*/
+/*scrolling effect where the image appears when its visible by the user*/
+/* @keyframes appear {
+    from{
+        opacity: 0;
+        scale: 0,5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+/*when visible*/
+/*.block{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 15%;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-direction: row;
+}
+/*making the img the same size and left*/
+/*.block img{
+    display: block;
+    margin-left: 0;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+/*text size*/
+/*.voices{
+    font-size: 30px;
+}
+/*fixing first image getting eaten up by fixed navbar*/
+/*.view {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+  padding-top: 100px;
+} */
