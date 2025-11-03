@@ -7,7 +7,6 @@ nav{
     box-sizing: border-box;
     background-color: white;
     border-bottom: 15px solid white;
-    /* margin-top: auto; */
     position: fixed;
     top: 0;
     left: 0;
@@ -202,10 +201,10 @@ path:hover{
 
 
 /* Q&A PAGE */
-body{
+/* .BodyQA{
     padding-top: 250px;
 
-}
+} */
 .ContainerQA{
     display: flex;
     justify-content: center;
@@ -275,8 +274,30 @@ body{
 }
 
 
+/* GAME PAGE */
+.GamePage{
+    margin-top: 200px;
+}
 
 
+.GameOne{
+    width: 900px;
+    height: 20vh;
+    color: pink;
+    background-color: red;
+}
+.GameTwo{
+    width: 900px;
+    height: 20vh;
+    color: green;
+    background-color: rgb(40, 22, 146);
+}
+.GameThree{
+    width: 900px;
+    height: 20vh;
+    color: white;
+    background-color: red;
+}
 
 
 

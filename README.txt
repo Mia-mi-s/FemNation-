@@ -1,3 +1,5 @@
+update 02/11/2025
+
 Feminist Awareness Website
 
 Project Overview :
@@ -49,3 +51,35 @@ Future Plans
 
 * Integrate AI-driven Q&A system.
 * Message wall
+
+--------------------------------------------------------------------------
+
+update 03/11/2025
+
+--gotta add a banner that says either games or play --
+--also 
+
+game 1 ideas :
+
+the FemNation squad where you collect points to achieve rights sum funny
+
+characters HAMUWARRIOR - PAUOLOAVENGER - BLUEBIRD - PERFORMATIVESIGMA
+
+ALL pixel characters to create in order to be able to pick a characters
+
+
+game 2 ideas :
+
+quizz game about the waves of feminism
+
+
+game 3 ideas : 
+
+shooting game would be cool
+
+i did start formatting the game page and also fixed the top marge that was huge
+i only needed it in certain pages since i got my nav bar set as the top and it eats
+my elements in some pages i added that the <body> has a class with a margin so it pushes down elements still need to figure out the firstpage margin correctly
+------------------------------------------------------------------------------------
+on the share page add a button that mutes the song to not piss ppl off
+---------------------------------------------------------------------------------
