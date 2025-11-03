@@ -276,7 +276,7 @@ path:hover{
 
 /* GAME PAGE */
 .GamePage{
-    margin-top: 200px;
+    margin-top: 10px;
 }
 
 
@@ -299,16 +299,11 @@ path:hover{
     background-color: red;
 }
 
-
-
-
-
-
-
-
-
-
-
+.GameBanner{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+} 
 
 
 
