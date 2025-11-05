@@ -28,9 +28,9 @@ Used
 -
 Challenges & Solutions
 
-| Challenge             | Description                             | Planned Solution                     |
+| Challenge             | Description                             | Solution                             |
 | --------------------- | --------------------------------------- | ------------------------------------ |
-| Responsive Navigation | Keeping layout consistent across pages  | Refactor CSS and use Flexbox/Grid    |
+| Responsive Navigation | Keeping layout consistent across pages  | CSS and use Flexbox/Grid             |
 | Database Integration  | Learning how to connect MySQL with JS   | Start with tutorials                 |
 | Question Bot          | Building logic for question recognition | Implement keyword-based responses    |
 | Message Wall          | Displaying dynamic user input           | Use MySQL                            |
