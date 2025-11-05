@@ -83,3 +83,11 @@ my elements in some pages i added that the <body> has a class with a margin so i
 ------------------------------------------------------------------------------------
 on the share page add a button that mutes the song to not piss ppl off
 ---------------------------------------------------------------------------------
+to get data from my sql--
+// Example route to get data
+// app.get('/data', (req, res) => {
+//   db.query('SELECT * FROM your_table', (err, results) => {
+//     if (err) throw err;
+//     res.json(results);
+//   });
+// });

@@ -11,3 +11,4 @@ INSERT INTO QnA (Questions,Answer)
     ('Give me women that contributed to feminism', 'Some notable women who contributed to feminism include Gloria Steinem, Susan B. Anthony, Malala Yousafzai, Simone de Beauvoir, Sojourner Truth, Betty Friedan, Chimamanda Ngozi Adichie, Elizabeth Cady Stanton, Angela Davis, and Margaret Sanger.'),
     ('Who is Chimamanda Ngozi Adichie?', 'Chimamanda Ngozi Adichie is a Nigerian writer and feminist known for her book "We Should All Be Feminists" and her influential TED Talk.');
     SELECT * FROM QnA;
+USE Messages;
