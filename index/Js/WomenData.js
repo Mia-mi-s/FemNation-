@@ -939,12 +939,6 @@ Suriname: {
     img: "",
     description: "Born in Paramaribo, Soeki Irodikromo is an activist promoting women's rights, education, and leadership in Suriname, empowering women to participate in governance and social reform."
 },
-Sweden: {
-    country: "Sweden",
-    name: "Elisabeth Tamm",
-    img: "",
-    description: "Born in 1880 in Fogelstad, Elisabeth Tamm was a suffragist, politician, and feminist promoting women's voting rights, education, and social reform in Sweden. She co-founded the Fogelstad Women's School and advocated for equality in governance."
-},
 Switzerland: {
     country: "Switzerland",
     name: "Emilie Kempin-Spyri",

@@ -83,11 +83,7 @@ my elements in some pages i added that the <body> has a class with a margin so i
 ------------------------------------------------------------------------------------
 on the share page add a button that mutes the song to not piss ppl off
 ---------------------------------------------------------------------------------
-to get data from my sql--
-// Example route to get data
-// app.get('/data', (req, res) => {
-//   db.query('SELECT * FROM your_table', (err, results) => {
-//     if (err) throw err;
-//     res.json(results);
-//   });
-// });
+05-11-2025
+-deleted the first database made a general database that includes 2 tables one for the chat but and the second for the message wall
+-fixed why the pictures in the map were not showing
+------------------------------------------------------------------------------------------------------------------------------------
