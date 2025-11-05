@@ -25,7 +25,7 @@ app.get('/qna', (req, res) => {
       } 
     else 
       {
-      res.send('Error: not found');
+      res.send('girly type a proper question that has nothin to do with feminism');
       }
   });
 });
