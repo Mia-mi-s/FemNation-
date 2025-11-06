@@ -25,7 +25,7 @@ app.get('/qna', (req, res) => {
       } 
     else 
       {
-      res.send('girly type a proper question that has nothin to do with feminism');
+      res.send('ERROR you either typed nothing or there is no data for this question');
       }
   });
 });

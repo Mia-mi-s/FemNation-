@@ -87,3 +87,25 @@ on the share page add a button that mutes the song to not piss ppl off
 -deleted the first database made a general database that includes 2 tables one for the chat but and the second for the message wall
 -fixed why the pictures in the map were not showing
 ------------------------------------------------------------------------------------------------------------------------------------
+CREATE DATABASE FemNation;
+USE FemNation;
+CREATE TABLE QnA (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  Questions TEXT NOT NULL,
+  Answer TEXT NOT NULL
+);
+
+INSERT INTO QnA (Questions, Answer)
+VALUES
+
+
+
+SELECT * FROM QnA;
+
+CREATE TABLE FemChatBot (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  UserMessage TEXT NOT NULL,
+  BotReply TEXT
+);
+    
+ 

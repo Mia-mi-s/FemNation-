@@ -197,21 +197,41 @@ path:hover{
 
 
 
-
-
-
 /* Q&A PAGE */
 .BodyQA{
     padding-top: 250px;
-
+     align-items: center;
+     display: flex;
+     justify-content:center;
 }
-
-.ContainerQA{
+.BotContainer {
+    border-radius: 20px;
+    background-color: rgb(241, 238, 145);
+    border: 2px solid black;
+    height: 50vh;
+    width: 30vh;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-
+    flex-direction: column; /* colonne */
 }
+.BotTitle {
+    background-color: rgb(246, 240, 249);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 8px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.QuestionBox {
+    background-color: rgb(17, 15, 15);
+    padding: 8px;
+     margin-top: auto; /*pushes input to bottom */
+    color: white;
+}
+
+
+
+/* MESSAGE WALL PAGE */
+
 .MessageWall{
     display: flex;
     align-items: center;
@@ -220,12 +240,7 @@ path:hover{
     height: 100vh;
     width: 100vw;
 }
-/* .CustomFilebtn{
-  padding: 4px 20px;
-  background-color: #000000;
-  color: white;
-  border-radius: 5px;
-} */
+
 
 /* WAVES OF FEMMINISM PAGE */
 
