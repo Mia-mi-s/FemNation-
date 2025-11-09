@@ -1,7 +1,6 @@
 const express = require('express');
 const mysql = require('mysql2');//library that lets Node.js talk to MySQL
 const cors = require('cors');//requests to your backend
-
 const app = express();
 app.use(cors());
 app.use(express.json());
