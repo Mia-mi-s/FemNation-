@@ -98,8 +98,6 @@ CREATE TABLE QnA (
 INSERT INTO QnA (Questions, Answer)
 VALUES
 
-
-
 SELECT * FROM QnA;
 
 CREATE TABLE FemChatBot (
@@ -114,7 +112,7 @@ SCRIPT TRANSLATE LANG
   function googleTranslateElementInit() {
     new google.translate.TranslateElement({
       pageLanguage: 'en',
-      includedLanguages: 'en,fr,es,de,ar', // you can list the ones you want
+      includedLanguages: 'en,fr,es,de,ar',
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE
     }, 'google_translate_element');
   }

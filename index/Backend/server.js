@@ -17,14 +17,14 @@ link.connect();
 app.get('/qna', (req, res) => {
   const question = req.query.q;
 
-  link.query('SELECT Answer FROM QnA WHERE Questions = ?', [question], (err, result) => {
+  link.query('SELECT answer FROM femnation WHERE question = ?', [question], (err, result) => {
     if (result && result.length > 0) 
       {
-      res.send(result[0].Answer);
+      res.send(result[0].answer);
       } 
     else 
       {
-      res.send('ERROR you either typed nothing or there is no data for this question');
+      res.send('error');
       }
   });
 });

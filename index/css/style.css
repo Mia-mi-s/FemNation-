@@ -1,6 +1,9 @@
 /*#for id . for classes */
 
 /* MAIN INDE PAGE */
+body{
+    font-family: Sans-serif;
+}
 nav{
     margin: 0;
     padding: 5px 10%;
@@ -61,13 +64,19 @@ nav{
     cursor: pointer;
 }
 .StartButton{
-    border-radius: 20px;
-    width: 50px;
+  border-radius: 20px;
+    width: 70px;
+    height: 30px;
     background-color: rgb(255, 246, 246);
     border-color: black;
     color: #8B0000;
-    font-size: 12px;
+    font-size: 20px;
 }
+.Click{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
 /*women writteb in red*/
 .WordColor{
     color: rgb(132, 16, 16);
@@ -123,7 +132,44 @@ nav{
    /* background-color: #f4ede4; */
    background-color: #1c1c1c;
 }
-.stat-box{
+.cream-section {
+    width: 80%;
+    margin: 40px auto;
+    font-family: sans-serif;
+    color: #4a3f35; 
+}
+
+/* INTRO TEXT BLOCK */
+.IntroText {
+    background: #fdfbf7;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ece7df;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+/* DID YOU KNOW --HiddenContent */
+.HiddenContent {
+    background: #fdfbf7;
+    padding: 20px 25px;
+    border-radius: 12px;
+    border: 1px solid #ece7df;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+    color: #000000;
+}
+.space{
+    height: 20px;
+}
+.DiscoverButton{
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 246, 246);
+    border-color: black;
+    color: #8B0000;
     font-size: 20px;
 }
 /*fixing tiles*/
@@ -132,7 +178,6 @@ nav{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-
 }
 .tile {
     width: 250px;
@@ -141,10 +186,14 @@ nav{
     border-radius: 8px;
 }
 .tile img {
+    
     width: 55%;
     height: 180px;
     object-fit: cover;
     border-radius: 5px;
+    display: block;      
+    margin: 0 auto;  /*centers the img block
+     */
 }
 /*footer right n left*/
 .footer{
