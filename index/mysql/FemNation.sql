@@ -6,6 +6,24 @@
 ('What is gender bias?', 'Gender bias is prejudice or discrimination based on a persons gender, often unconscious but harmful in many settings.'),
 ('Can feminism be misunderstood?', 'Yes, sometimes feminism is misrepresented; its about equality, not about one gender being superior to another.'),
 ('Give me women that contributed to feminism', 'Some notable women who contributed to feminism include Gloria Steinem, Susan B. Anthony, Malala Yousafzai, Simone de Beauvoir, Sojourner Truth, Betty Friedan, Chimamanda Ngozi Adichie, Elizabeth Cady Stanton, Angela Davis, and Margaret Sanger.'),
-('Who is Chimamanda Ngozi Adichie?', 'Chimamanda Ngozi Adichie is a Nigerian writer and feminist known for her book "We Should All Be Feminists" and her influential TED Talk.');
-
-   
+('Who is Chimamanda Ngozi Adichie?', 'Chimamanda Ngozi Adichie is a Nigerian writer and feminist known for her book "We Should All Be Feminists" and her influential TED Talk.')
+('What is intersectional feminism?', 'Intersectional feminism recognizes that gender inequality is connected to race, class, sexuality, and other identities.'),
+('Who created the term intersectionality?', 'The term intersectionality was created by Kimberlé Crenshaw to describe overlapping forms of oppression.'),
+('What is patriarchy?', 'Patriarchy is a social system where men hold more power and privilege than women.'),
+('What is the gender pay gap?', 'The gender pay gap is the average difference in earnings between men and women.'),
+('What are gender roles?', 'Gender roles are expectations society places on people based on their gender.'),
+('Why are gender stereotypes harmful?', 'Gender stereotypes limit what people can do and lead to discrimination and inequality.'),
+('What is toxic masculinity?', 'Toxic masculinity refers to harmful expectations that men must be dominant, emotionless, and aggressive.'),
+('What is toxic femininity?', 'Toxic femininity refers to harmful expectations that women must be submissive, passive, and always pleasing others.'),
+('What is body autonomy?', 'Body autonomy means every person has the right to make decisions about their own body.'),
+('What is consent?', 'Consent is a clear and voluntary agreement to participate in an activity, including physical or intimate interactions.'),
+('What is reproductive rights?', 'Reproductive rights include access to contraception, safe childbirth, and the freedom to make decisions about pregnancy.'),
+('What is gender-based violence?', 'Gender-based violence is harm directed at someone because of their gender, often affecting women and marginalized groups.'),
+('What is sexual harassment?', 'Sexual harassment is unwanted behavior of a sexual nature that makes someone feel unsafe or uncomfortable.'),
+('What is the glass ceiling?', 'The glass ceiling is an invisible barrier that prevents women from advancing to top positions in workplaces.'),
+('Why is representation important in feminism?', 'Representation ensures that women and marginalized groups are visible in media, leadership, and society.'),
+('What is digital feminism?', 'Digital feminism uses social media and online platforms to promote gender equality and activism.'),
+('What is the Me Too movement?', 'The Me Too movement is a global campaign against sexual harassment and assault, empowering survivors to speak out.'),
+('What is gender discrimination?', 'Gender discrimination is unfair treatment based on gender in education, work, or daily life.'),
+('What does empowerment mean for women?', 'Women empowerment means giving women the resources, freedom, and opportunities to make their own choices.'),
+('Why is feminist education important?', 'Feminist education teaches critical thinking about gender equality and encourages fair and inclusive societies.');
