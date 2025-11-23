@@ -106,15 +106,4 @@ CREATE TABLE FemChatBot (
   BotReply TEXT
 );
 ---------------------------------------------------------------------------------------------------------------------------------
-    <div id="google_translate_element"></div>
-SCRIPT TRANSLATE LANG
-        <script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'en',
-      includedLanguages: 'en,fr,es,de,ar',
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
-  }
-</script>
- 
+for the QnA page add a round div where for every dead women according to UN stat the sircle fills up with red representing blood.
