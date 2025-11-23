@@ -1,3 +1,7 @@
+function Reset(){
+  document.getElementById("Answer").textContent = "";
+  document.getElementById("Question").value = "";
+}
 function AskBot() {
   const question = document.getElementById("Question").value;
   const answerElement = document.getElementById("Answer");
