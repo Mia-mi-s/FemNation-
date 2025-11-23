@@ -313,7 +313,7 @@ path:hover{
 }
 .PageWrapper {
     display: flex;
-    gap: 500px;
+    gap: 20px;
     padding-top: 50px;
     width: 100%;
 }
@@ -326,7 +326,7 @@ path:hover{
 }
 
 .BotContainer {
-    width: 300px;
+    width: 500px;
 }
 
 
