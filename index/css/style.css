@@ -349,6 +349,16 @@ path:hover{
     border: 5px solid black;
     border-radius: 50%;
     margin: 0 auto;        /* Centre horizontalement */
+    overflow: hidden; /* important so the fill stays inside */
+    position: relative;
+}
+
+#Sirclefill {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #8B0000;
 }
 
 /* WAVES OF FEMMINISM PAGE */

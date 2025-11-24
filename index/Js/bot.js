@@ -13,3 +13,14 @@ function AskBot() {
     });
 }
 // ---------------------------------------------------------------------------------------------------------------------------------
+let TotalWomen = 51000;
+let current;
+function updateCircle() {
+    document.getElementById("Sirclefill").style.height = percent + "%";
+}
+
+// Run immediately when page loads
+window.onload = function() {
+    updateCircle(); 
+};
+
