@@ -342,6 +342,14 @@ path:hover{
     width: 100vw;
 }
 
+.Sircle{
+   
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 0 auto;        /* Centre horizontalement */
+}
 
 /* WAVES OF FEMMINISM PAGE */
 

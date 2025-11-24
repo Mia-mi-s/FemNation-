@@ -63,7 +63,7 @@ game 1 ideas :
 
 the FemNation squad where you collect points to achieve rights sum funny
 
-characters HAMUWARRIOR - PAUOLOAVENGER - BLUEBIRD - PERFORMATIVESIGMA
+characters HAMUWARRIOR - PAULOAVENGER - BLUEBIRD - PERFORMATIVESIGMA
 
 ALL pixel characters to create in order to be able to pick a characters
 
