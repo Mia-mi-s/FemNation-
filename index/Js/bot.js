@@ -15,8 +15,14 @@ function AskBot() {
 // ---------------------------------------------------------------------------------------------------------------------------------
 let TotalWomen = 51000;
 let current;
+
 function updateCircle() {
+  for(current = 0; current<TotalWomen; current++)
     document.getElementById("Sirclefill").style.height = percent + "%";
+}
+
+function updateText(){
+  for
 }
 
 // Run immediately when page loads
