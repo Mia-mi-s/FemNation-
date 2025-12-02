@@ -331,17 +331,6 @@ path:hover{
 
 
 
-/* MESSAGE WALL PAGE */
-
-.MessageWall{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
-    height: 100vh;
-    width: 100vw;
-}
-
 .Sircle{
    
     height: 400px;
@@ -361,44 +350,6 @@ path:hover{
     background-color: #8B0000;
 }
 
-/* WAVES OF FEMMINISM PAGE */
-
-.slide{
-    width: 100vh;
-    height: 100vh;
-}
-
-.Wrapper{
-    display: flex;
-    width: 400vw;
-    flex-direction: row ;
-    transform: rotate(90deg) translateY(-100vh);
-    transform-origin: top left;
-}
-.FirstWave{
-    background-color: red;
-}
-.SecondWave{
-    background-color: rgb(38, 31, 99);
-}
-
-.ThirdWave{
-    background-color: rgba(15, 99, 21, 0.456);
-}
-
-.FourthWave{
-    background-color: rgb(106, 68, 68);
-}
-.OuterWrapper{
-    width: 100vh;
-    height: 100vw;
-    transform: rotate(-90deg) translateX(-100vh);
-    transform-origin: top left;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    position: absolute;
-
-}
 
 
 /* WALL PAGE */

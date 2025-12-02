@@ -1,0 +1,202 @@
+
+.message-page {
+    background-color: #f7f3e8; /* Light, calming background */
+    padding-top: 80px; /* Clear the fixed navigation */
+}
+
+.message-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Introduction Text */
+.intro-text {
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+.intro-text h1 {
+    font-size: 2.5em;
+    color: #A31F2E; /* Deep Red accent */
+    margin-bottom: 15px;
+}
+.intro-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #444;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* Audio Styling (Hide default player but keep functionality) */
+.hide-audio {
+    /* Position off-screen or use display:none if you don't want it accessible */
+    position: absolute;
+    left: -9999px;
+    /* If you want a subtle icon: 
+    width: 30px; height: 30px; display: block; */
+}
+
+
+/* --- MESSAGE WALL GRID --- */
+.MessageWall {
+    display: grid;
+    /* Creates a responsive grid of message cards */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    background-color: #A31F2E; /* Deep Red background for the wall */
+    min-height: 50vh; /* Minimum height for the wall area */
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+/* Individual Message Card Styling */
+.message-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Simple tilt effect to look like notes */
+    transform: rotate(calc(var(--rotation) * 1deg)); 
+    transition: transform 0.3s ease;
+}
+.message-card:hover {
+    transform: rotate(0deg) scale(1.03);
+    z-index: 10;
+}
+
+.message-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.message-text {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    white-space: pre-wrap; /* Keeps line breaks from textarea */
+}
+
+.message-footer {
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+    font-size: 0.85em;
+    color: #888;
+    text-align: right;
+}
+
+/* --- INPUT FORM STYLING --- */
+.input-form-area h2 {
+    text-align: center;
+    color: #A31F2E;
+    margin-bottom: 20px;
+}
+
+.message-input-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.file-input-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Custom styling for the file input button */
+input[type="file"] {
+    display: none;
+}
+.file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff3333; /* Red button */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+.file-label:hover {
+    background-color: #A31F2E;
+}
+.file-label i {
+    margin-right: 8px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1em;
+    resize: vertical;
+}
+
+.send-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff3333; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.send-button:hover {
+    background-color: #A31F2E;
+}
+body{
+    font-family: Sans-serif;
+}
+nav{
+    margin: 0;
+    padding: 5px 10%;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 15px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+ }
+ .logo{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 2px;
+ }
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-link li a{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: black
+
+}
+/*changes the color when you hover over the links*/
+.nav-link li a:hover{
+    color:  rgb(132, 16, 16);
+}

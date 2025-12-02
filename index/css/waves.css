@@ -1,0 +1,144 @@
+body{
+    font-family: Sans-serif;
+}
+nav{
+    margin: 0;
+    padding: 5px 10%;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 15px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+ }
+ .logo{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 2px;
+ }
+.nav-link{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.nav-link li a{
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: black
+
+}
+/*changes the color when you hover over the links*/
+.nav-link li a:hover{
+    color:  rgb(132, 16, 16);
+}
+/* --- WAVES OF FEMINISM PAGE STYLES (No JS Needed) --- */
+
+/* Basic page setup */
+.waves-page {
+    margin: 0;
+    /* Hide the default vertical scrollbar */
+    overflow-y: hidden;
+    background-color: #f7f3e8; /* Soft background color */
+    /* Add padding to account for the fixed nav bar */
+    padding-top: 80px; 
+}
+
+/* Horizontal Scroll Container: The key to the effect */
+.HorizontalScrollContainer {
+    /* Sets the container to be the height of the viewport minus the nav bar */
+    height: calc(100vh - 80px);
+    
+    /* Enables horizontal scrolling */
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    
+    /* Use Flexbox to lay the slides out in a single row */
+    display: flex;
+    flex-wrap: nowrap; /* Forces all children onto one line */
+    
+    /* --- CSS SCROLL SNAP PROPERTIES --- */
+    /* This makes the scroll "snap" to each slide when the user flicks the scroll wheel */
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    
+    /* --- TIMELINE LINE (Optional - adds a visual break) --- */
+    border-bottom: 3px solid #ff3333; /* Red timeline line */
+}
+
+/* Slide: Each individual wave panel */
+.slide {
+    width: 100vw; /* Each slide takes up the full viewport width */
+    height: 100%; 
+    flex-shrink: 0; /* Prevents slides from shrinking */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    
+    /* Snap the scroll position to the start of each slide */
+    scroll-snap-align: start; 
+}
+
+/* Slide Content Container (The box that pops up) */
+.slide-content {
+    width: 90%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.95); /* White box for readability */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.slide-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff3333; /* Red heading color */
+}
+
+.description-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.description-box p {
+    flex: 1;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.wave-image {
+    flex: 1;
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- WAVE COLORS --- */
+.FirstWave {
+    background-color: #A31F2E; /* Deep Red */
+}
+.SecondWave {
+    background-color: #2F3C7E; /* Deep Blue/Purple */
+}
+.ThirdWave {
+    background-color: #4CAF50; /* Green */
+}
+.FourthWave {
+    background-color: #795548; /* Brown/Earth Tone */
+}

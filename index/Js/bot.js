@@ -13,20 +13,20 @@ function AskBot() {
     });
 }
 // ---------------------------------------------------------------------------------------------------------------------------------
-let TotalWomen = 51000;
-let current;
+// let TotalWomen = 51000;
+// let current;
 
-function updateCircle() {
-  for(current = 0; current<TotalWomen; current++)
-    document.getElementById("Sirclefill").style.height = percent + "%";
-}
+// function updateCircle() {
+//   for(current = 0; current<TotalWomen; current++)
+//     document.getElementById("Sirclefill").style.height = percent + "%";
+// }
 
-function updateText(){
-  for
-}
+// function updateText(){
+//   for
+// }
 
-// Run immediately when page loads
-window.onload = function() {
-    updateCircle(); 
-};
+// // Run immediately when page loads
+// window.onload = function() {
+//     updateCircle(); 
+// };
 
