@@ -1,144 +1,154 @@
-/* --- MYTHS AND MISCONCEPTIONS PAGE STYLES --- */
-
-.myths-page {
-    background-color: #f7f3e8; /* Soft Beige background */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.content-wrapper {
+/* Body */
+body.page {
+    background-color: #fae1c3;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    border-bottom: 5px solid #841010;
+    padding: 10px 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: black;
+}
+
+.navlink {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navlink li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.navlink li a:hover {
+    color: rgb(132, 16, 16);
+}
+
+/* Main Content */
+.content {
     max-width: 900px;
     margin: 0 auto;
-    padding: 100px 20px 50px; /* Padding top clears the fixed nav bar */
+    padding: 120px 20px 50px;
 }
 
-.page-header {
+/* Intro Section */
+.intro {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.PageTitle {
+.intro h1 {
     font-size: 2.5em;
-    color: #A31F2E; /* Deep Red accent */
-    border-bottom: 3px solid #ff3333;
-    display: inline-block;
-    padding-bottom: 10px;
+    color: #841010;
     margin-bottom: 20px;
 }
 
-.IntroText {
+.text {
     font-size: 1.1em;
     line-height: 1.7;
     color: #444;
 }
 
-/* --- Myth & Truth Boxes --- */
-.myth-container {
-    background-color: white;
-    margin-bottom: 35px;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-    overflow: hidden; /* Important for border-radius on children */
-}
-
-.myth-box {
-    background-color: #ff3333; /* Bright Red for the MYTH */
-    color: white;
-    padding: 20px;
+/* Points Section */
+.points {
     display: flex;
-    align-items: center;
-    border-bottom: 4px solid #A31F2E; /* Darker red separation */
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
-.myth-box i {
-    font-size: 1.8em;
-    margin-right: 15px;
-}
-
-.myth-box h2 {
-    margin: 0;
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-.truth-box {
+.point {
+    flex: 1 1 100%;
     background-color: white;
-    padding: 25px 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.truth-box i {
-    color: #4CAF50; /* Green checkmark for TRUTH */
-    font-size: 1.5em;
+.point:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.point i {
+    font-size: 2em;
+    color: #ff3333;
     margin-right: 10px;
 }
 
-.truth-box h3 {
+.point h3 {
+    color: #841010;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
-    font-size: 1.2em;
-    color: #333;
-    border-bottom: 1px solid #f0f0f0;
-    padding-bottom: 10px;
-    margin-top: 0;
 }
 
-.truth-box p {
-    font-size: 1em;
-    line-height: 1.6;
+.point p {
     color: #555;
-    padding-top: 15px;
+    font-size: 1em;
 }
 
-/* --- Summary Footer --- */
-.truth-summary {
+/* Definition Section */
+.definition {
+    background-color: #f7f3e8;
+    padding: 30px;
+    border-radius: 8px;
     text-align: center;
-    padding: 40px 0;
-    margin-top: 30px;
 }
 
-.truth-summary h2 {
-    color: #A31F2E;
-    font-size: 2em;
+.definition h2 {
+    color: #841010;
+    font-size: 1.8em;
     margin-bottom: 15px;
+    border-bottom: 2px solid #841010;
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
-.truth-summary p {
-    font-style: italic;
-    color: #666;
+.definition p {
     font-size: 1.1em;
-}nav{
-    margin: 0;
-    padding: 5px 10%;
-    box-sizing: border-box;
-    background-color: white;
-    border-bottom: 15px solid white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
- }
- .logo{
-    font-size: 20px;
-    font-weight: 400;
-    color: black;
-    letter-spacing: 2px;
- }
-.nav-link{
-    list-style: none;
-    display: flex;
-    gap: 25px;
+    line-height: 1.6;
+    color: #444;
 }
-.nav-link li a{
-    position: relative;
-    font-size: 20px;
-    font-weight: 500;
-    color: black
 
-}
-/*changes the color when you hover over the links*/
-.nav-link li a:hover{
-    color:  rgb(132, 16, 16);
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border-top: 2px solid #841010;
+    background-color: white;
 }

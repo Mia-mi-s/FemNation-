@@ -9,7 +9,7 @@ nav{
     padding: 5px 10%;
     box-sizing: border-box;
     background-color: white;
-    border-bottom: 15px solid white;
+    border-bottom: 5px solid #841010;
     position: fixed;
     top: 0;
     left: 0;
@@ -181,11 +181,14 @@ nav{
     display: block;      
     margin: 0 auto;  /*centers the img block */
 }
-/*footer right n left*/
+/* FOOTER */
 .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 5%;
+    border-top: 2px solid #841010;
+    background-color: white;
 }
 /* world map */
 
