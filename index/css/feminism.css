@@ -1,23 +1,22 @@
 /* --- FEMINISM 101 PAGE STYLES --- */
 
-body {
+/* General Reset */
+* {
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
+/* Body */
+body {
+    background-color: rgb(250, 221, 195);
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Content Wrapper */
 .ContentWrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 20px 50px;
-}
-
-/* Sections */
-.DefinitionSection,
-.SectionBeige {
-    padding: 40px;
-    margin-bottom: 40px;
-    border-radius: 8px;
+    padding: 120px 20px 50px; /*fixed nav */
 }
 
 /* Hero Section */
@@ -28,8 +27,8 @@ body {
 
 .HeroSection h1 {
     font-size: 2.8em;
-    color: #333;
-    border-bottom: 4px solid rgb(132, 16, 16);
+    color: #841010;
+    border-bottom: 4px solid #841010;
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -38,13 +37,22 @@ body {
     font-style: italic;
     color: #666;
     margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Definition Section */
+.DefinitionSection,
+.SectionBeige {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
 }
 
 /* Definition Box */
 .DefinitionBox {
     background-color: #f7f3e8;
     padding: 30px;
-    border-left: 5px solid rgb(14, 13, 13);
+    border-left: 5px solid #0e0d0d;
     margin: 30px 0;
     line-height: 1.6;
     font-size: 1.1em;
@@ -52,8 +60,9 @@ body {
 
 .MainDefinition {
     font-weight: bold;
-    color: rgb(132, 16, 16);
+    color: #841010;
     font-size: 1.3em;
+    margin-bottom: 15px;
 }
 
 /* Key Points */
@@ -65,47 +74,68 @@ body {
 }
 
 .Point {
-    width: 30%;
+    flex: 1 1 30%;
     text-align: center;
     padding: 20px;
     background: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Point:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .Point i {
     font-size: 2.5em;
     margin-bottom: 15px;
+    color: #ff3333;
 }
 
 .Point h3 {
-    color: rgb(132, 16, 16);
+    color: #841010;
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
 .Point p {
-    font-size: 0.9em;
+    font-size: 0.95em;
     color: #555;
 }
 
 /* Section Beige */
 .SectionBeige {
     background-color: #f7f3e8;
+    text-align: center;
 }
 
 .SectionBeige h2 {
-    color: rgb(132, 16, 16);
-    border-bottom: 2px solid rgb(132, 16, 16);
+    color: #841010;
+    border-bottom: 2px solid #841010;
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-/* Footer spacing */
-.Footer {
-    padding-top: 20px;
-    margin-top: 0;
+.GoalList {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
 }
 
+.GoalList p {
+    margin-bottom: 15px;
+}
+
+.GoalList ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.GoalList ul li {
+    margin-bottom: 10px;
+}
 
 /* NAVIGATION */
 nav{
@@ -144,4 +174,11 @@ nav{
 /*changes the color when you hover over the links*/
 .nav-link li a:hover{
     color:  rgb(132, 16, 16);
+}
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

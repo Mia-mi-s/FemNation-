@@ -107,3 +107,19 @@ CREATE TABLE FemChatBot (
 );
 ---------------------------------------------------------------------------------------------------------------------------------
 for the QnA page add a round div where for every dead women according to UN stat the sircle fills up with red representing blood.
+---------------------------------------------------------------------------------------------------------------------------------
+12/13/2025
+
+what i fixed :
+
+ON INDEX :
+Fiwed the cicking animation to stop at the end of the ch content on index + Fixed the tiles to fit all in one row, they look like skinny fries wtv..
+
+ON WAVES :
+Background color of each slide to rainbow  and the content + added images
+
+ON FEMMINISM 101 :
+background color the content(text), added footer
+
+ON TODAY :
+

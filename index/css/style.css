@@ -88,17 +88,17 @@ nav{
 .text{
     font-size: 30px;
     border-right: 2px solid black;
-    width: 100%;
+    width: 62ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: steps 10s steps(69) infinite,
-    cursor 0.7s step-end infinite alternate;
+    animation: steps 20s steps(60) infinite,
+    cursor 0.4s step-end infinite alternate;
 
 }
 /*cursor blinking effect*/
 @keyframes cursor{
     0%, 100%{border-color: transparent}
-    50%{border-color: black;}
+    20%{border-color: black;}
 }
 /*typing effect*/
 @keyframes steps{
@@ -125,12 +125,9 @@ nav{
 } 
 .ColorSection3{
   height: 75vh; 
-  /* background-color:  #f4ede4; */
   color: #000000;
   padding: 80px 10%;
-  /* background-color: #4b0000; */
-   /* background-color: #f4ede4; */
-   background-color: #1c1c1c;
+  background-color: #1c1c1c;
 }
 /*
 
@@ -166,7 +163,7 @@ nav{
 .tiles-wrapper{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 20px;
 }
 .tile {
@@ -182,8 +179,7 @@ nav{
     object-fit: cover;
     border-radius: 5px;
     display: block;      
-    margin: 0 auto;  /*centers the img block
-     */
+    margin: 0 auto;  /*centers the img block */
 }
 /*footer right n left*/
 .footer{
@@ -191,12 +187,6 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
-
-/* PAGE WOMENSVOICES */
 /* world map */
 
 svg{
@@ -286,48 +276,6 @@ path:hover{
 
 
 
-
-
-
-
-
-/*Page target voices*/
-/*scrolling effect where the image appears when its visible by the user*/
-/* @keyframes appear {
-    from{
-        opacity: 0;
-        scale: 0,5;
-    }
-    to{
-        opacity: 1;
-        scale: 1;
-    }
-}
-/*when visible*/
-/*.block{
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 15%;
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    flex-direction: row;
-}
-/*making the img the same size and left*/
-/*.block img{
-    display: block;
-    margin-left: 0;
-    margin-left: auto;
-    margin-bottom: 50px;
-    width: 550px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 15px;
-}
-/*text size*/
-/*.voices{
-    font-size: 30px;
-}
 /*fixing first image getting eaten up by fixed navbar*/
 /*.view {
   display: flex;

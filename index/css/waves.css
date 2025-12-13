@@ -38,43 +38,48 @@ nav{
 .nav-link li a:hover{
     color:  rgb(132, 16, 16);
 }
-/* --- WAVES OF FEMINISM PAGE STYLES (No JS Needed) --- */
 
-/* Basic page setup */
 .waves-page {
     margin: 0;
-    /* Hide the default vertical scrollbar */
     overflow-y: hidden;
-    background-color: #f7f3e8; /* Soft background color */
+    background-color: #f7f3e8;
     /* Add padding to account for the fixed nav bar */
     padding-top: 80px; 
+}
+/* --- WAVE COLORS --- */
+.FirstWave {
+    background-color: #8B0000;
+}
+.SecondWave {
+    background-color: chocolate;
+}
+.ThirdWave {
+    background-color: yellow; 
+}
+.FourthWave {
+    background-color: green;
 }
 
 /* Horizontal Scroll Container: The key to the effect */
 .HorizontalScrollContainer {
-    /* Sets the container to be the height of the viewport minus the nav bar */
+    /* Sets the container viewport minus the nav bar */
     height: calc(100vh - 80px);
     
     /* Enables horizontal scrolling */
     overflow-x: scroll;
     overflow-y: hidden; 
     
-    /* Use Flexbox to lay the slides out in a single row */
+    /* Use Flexbox to lay slodes single row */
     display: flex;
-    flex-wrap: nowrap; /* Forces all children onto one line */
+    flex-wrap: nowrap;
     
-    /* --- CSS SCROLL SNAP PROPERTIES --- */
-    /* This makes the scroll "snap" to each slide when the user flicks the scroll wheel */
+    /* This makes the scroll wheel */
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    
-    /* --- TIMELINE LINE (Optional - adds a visual break) --- */
-    border-bottom: 3px solid #ff3333; /* Red timeline line */
 }
 
-/* Slide: Each individual wave panel */
 .slide {
-    width: 100vw; /* Each slide takes up the full viewport width */
+    width: 100vw; /* slide takes full viewport width */
     height: 100%; 
     flex-shrink: 0; /* Prevents slides from shrinking */
     display: flex;
@@ -93,7 +98,7 @@ nav{
     max-width: 900px;
     padding: 30px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.95); /* White box for readability */
+    background-color: rgba(255, 255, 255, 0.95); /* White box */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -104,7 +109,7 @@ nav{
     font-size: 2.5em;
     margin-bottom: 20px;
     text-align: center;
-    color: #ff3333; /* Red heading color */
+    color: black; /* titlecolor */
 }
 
 .description-box {
@@ -127,18 +132,4 @@ nav{
     border-radius: 8px;
     object-fit: cover;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* --- WAVE COLORS --- */
-.FirstWave {
-    background-color: #A31F2E; /* Deep Red */
-}
-.SecondWave {
-    background-color: #2F3C7E; /* Deep Blue/Purple */
-}
-.ThirdWave {
-    background-color: #4CAF50; /* Green */
-}
-.FourthWave {
-    background-color: #795548; /* Brown/Earth Tone */
 }
