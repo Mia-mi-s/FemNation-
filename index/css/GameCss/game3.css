@@ -1,0 +1,181 @@
+/* --- Global Variables --- */
+:root {
+    --primary-color: #A3333D; 
+    --secondary-color: #F7E3E7;
+    --text-color: #1a1a1a;
+    --accent-color: #5D1C22;
+    --font-stack: 'Arial', sans-serif;
+}
+
+/* --- Global Styles --- */
+body {
+    font-family: var(--font-stack);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 26px;
+}
+
+/* Navigation */
+nav {
+    margin: 0;
+    padding: 5px 10%;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 5px solid #841010;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav-link li a:hover {
+    color: rgb(132, 16, 16);
+    text-decoration: underline;
+}
+
+.nav-link li a .fa-brands {
+    font-size: 19.2px;
+    margin-left: 5px;
+}
+
+.GameOneMarge {
+    height: 70px; 
+}
+
+/* Main quiz container */
+.Page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-height: 640px;
+}
+
+h3 {
+    color: var(--primary-color);
+    margin-top: 25px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+
+/*Radio Button & Label Styling */
+
+input[type="radio"] {
+    opacity: 0; 
+    position: fixed;
+    width: 0;
+} 
+
+label {
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+input[type="radio"]:checked + label {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    font-weight: bold;
+}
+
+label:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+
+/*Submit Button Styling*/
+#MySubmit {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 17.6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ #MySubmit:hover {
+    background-color: var(--primary-color);
+}
+
+#MySubmit:active {
+    transform: scale(0.99); 
+} 
+
+
+/* Result Display*/
+#AnswerResult {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-left: 5px solid var(--primary-color);
+    background-color: #f9f9f9;
+    font-weight: 500;
+}
+
+#points {
+    margin-top: 15px;
+    font-size: 19.2px;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+/* FOOTER*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    border-top: 2px solid #841010;
+    background-color: white;
+    color: var(--text-color);
+    font-size: 14.4px; 
+    flex-wrap: wrap; 
+}
+
+.footer p {
+    margin: 5px 0;
+}
