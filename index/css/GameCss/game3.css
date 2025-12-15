@@ -7,7 +7,7 @@
     --font-stack: 'Arial', sans-serif;
 }
 
-/* --- Global Styles --- */
+/* Global Styles */
 body {
     font-family: var(--font-stack);
     background-color: var(--secondary-color);

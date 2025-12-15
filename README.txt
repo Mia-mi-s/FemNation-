@@ -123,3 +123,9 @@ background color the content(text), added footer
 
 ON TODAY :
 
+
+
+
+Pour mme betterki - pour lancer le server cd index + cd backend 
+taper ma comande - node server js
+
