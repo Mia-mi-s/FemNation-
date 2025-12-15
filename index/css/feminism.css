@@ -2,9 +2,9 @@
 
 /* General Reset */
 * {
+ 
     font-family: sans-serif;
 }
-
 /* Body */
 body {
     background-color: rgb(250, 221, 195);
@@ -185,4 +185,3 @@ nav{
     border-top: 2px solid #841010;
     background-color: white;
 }
-/* border-bottom: 3px solid #841010; */

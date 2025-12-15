@@ -8,7 +8,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Data Storage (using an Array) ---
     // In a real application, this array would be saved to a database.
     // Here, it holds messages temporarily in memory for the session.
-    let messagesArray = [];
+    let messagesArray = [
+    {
+text: `Men im around ask often ask, "What rights do you not have that i have?" when feminism is brought into the  conversation,
+ and i start wondering if the concept of feminism was ever taught.
+ My life here is privileged; my voice is safe. The pay gap is different and they find a way to justify it and alot more...
+
+Feminism was never about my small, local score-keeping.
+
+It's about the billions of women globally who are born without a voice, whose lives are controlled before they draw their first breath. They don't have the simple, terrifying privilege of expression, of critical thinking.
+
+I don't want the same rights as the man across the table. I want all women to live like I do.
+
+— Mia`,
+        imageUrl: null,
+        date: "12-15-2025 02:10"
+    }
+];
 
     // --- Helper function: Get Random Rotation (using Math) ---
     function getRandomRotation() {
